@@ -2,24 +2,57 @@
   "name": "administrator",
   "private": true,
   "dependencies": {
-    "bootstrap": "~3.3.5",
-    "modernizr": "~2.8.3",
-    "metisMenu": "^2.6.1",
-    "font-awesome": "fontawesome#^4.7.0",
-    "morris.js": "^0.5.1"
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.0.0",
+    "Flot": "flot#^0.8.3",
+    "font-awesome": "^4.6.3",
+    "holderjs": "^2.9.3",
+    "metisMenu": "^2.5.2",
+    "morris.js": "morrisjs#^0.5.1",
+    "bootstrap-social": "^5.0.0",
+    "flot.tooltip": "^0.8.7",
+    "animate.css": "^3.5.2",
+    "es5-shim": "^4.5.9",
+    "json3": "^3.3.2",
+    "html5shiv": "^3.7.3",
+    "respond": "respondJS#^1.4.2",
+    "bootbox.js": "bootbox#^4.4.0"
   },
+  "devDependencies": {
+
+  },
+  "appPath": "app",
+  "moduleName": "administrator",
   "overrides": {
     "bootstrap": {
       "main": [
         "less/bootstrap.less",
         "dist/css/bootstrap.css",
-        "dist/js/bootstrap.js",
-        "dist/fonts/*"
+        "dist/css/bootstrap-theme.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "bootstrap-social": {
+      "main": [
+        "bootstrap-social.css"
+      ]
+    },
+    "metisMenu": {
+      "main": [
+        "dist/metisMenu.css",
+        "dist/metisMenu.js"
+      ]
+    },
+    "morris.js": {
+      "main": [
+        "morris.css",
+        "morris.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css"
       ]
     }
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
   }
 }
