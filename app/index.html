@@ -372,7 +372,7 @@
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">
-                Area chart Morris
+                Line chart multi
             </h1>
         </div>
         <!-- /.col-lg-12 -->
@@ -382,7 +382,8 @@
         <div class="col-lg-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
+                    <i class="fa fa-bar-chart-o fa-fw"></i>
+                    Line chart multi
                     <div class="pull-right">
                         <div class="btn-group">
                             <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
@@ -405,7 +406,9 @@
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">
-                    <div id="morris-area-chart"></div>
+                    <div class="flot-chart">
+                        <div class="flot-chart-content" id="flot-line-chart-multi"></div>
+                    </div>
                 </div>
                 <!-- /.panel-body -->
             </div>
@@ -413,6 +416,7 @@
     </div>
 
 </div>
+
 
 </div>
 
@@ -424,7 +428,11 @@
     <!-- bower:js -->
     <script src="/bower_components/es5-shim/es5-shim.js"></script>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/Flot/excanvas.min.js"></script>
     <script src="/bower_components/Flot/jquery.flot.js"></script>
+    <script src="/bower_components/Flot/jquery.flot.pie.js"></script>
+    <script src="/bower_components/Flot/jquery.flot.resize.js"></script>
+    <script src="/bower_components/Flot/jquery.flot.time.js"></script>
     <script src="/bower_components/holderjs/holder.js"></script>
     <script src="/bower_components/metisMenu/dist/metisMenu.js"></script>
     <script src="/bower_components/eve-raphael/eve.js"></script>

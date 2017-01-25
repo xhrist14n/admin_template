@@ -53,6 +53,15 @@
       "main": [
         "css/font-awesome.css"
       ]
+    },
+    "Flot": {
+      "main": [
+        "excanvas.min.js",
+        "jquery.flot.js",
+        "jquery.flot.pie.js",
+        "jquery.flot.resize.js",
+        "jquery.flot.time.js"
+      ]
     }
   }
 }
