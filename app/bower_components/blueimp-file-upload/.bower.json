@@ -68,7 +68,6 @@
     "commit": "af56d0969d7a4d1afe23390c38e31466ae218351"
   },
   "_source": "https://github.com/blueimp/jQuery-File-Upload.git",
-  "_target": "^9.21.0",
-  "_originalSource": "blueimp-file-upload",
-  "_direct": true
+  "_target": "^9.19.1",
+  "_originalSource": "blueimp-file-upload"
 }
