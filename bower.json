@@ -31,7 +31,22 @@
     "datatables.net-rowreorder-bs": "^1.2.3",
     "datatables.net-scroller-bs": "^1.4.3",
     "datatables.net-select-bs": "^1.2.3",
-    "modernizr": "^2.8.0"
+    "modernizr": "^2.8.0",
+    "dropify": "^0.2.2",
+    "Ionicons": "ionicons#^2.0.1",
+    "typicons.font": "typicons#^2.0.9",
+    "weather-icons": "^2.0.10",
+    "angular": "angularjs#^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-cookies": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-touch": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-scenario": "^1.5.8",
+    "jquery-ui": "jqueryui#^1.12.1",
+    "blueimp-file-upload": "^9.21.0",
+    "blueimp-gallery": "^2.33.0"    
   },
   "devDependencies": {},
   "appPath": "app",
@@ -80,6 +95,21 @@
         "jquery.flot.pie.js",
         "jquery.flot.resize.js",
         "jquery.flot.time.js"
+      ]
+    },
+    "blueimp-file-upload": {
+      "main": [
+        "css/jquery.fileupload.css",
+        "css/jquery.fileupload-ui.css",
+        "js/vendor/jquery.ui.widget.js",
+        "js/jquery.iframe-transport.js",
+        "js/jquery.fileupload.js"
+      ]
+    },
+    "blueimp-gallery": {
+      "main": [
+        "css/blueimp-gallery.min.css",
+        "js/jquery.blueimp-gallery.min.js"
       ]
     }
   }
