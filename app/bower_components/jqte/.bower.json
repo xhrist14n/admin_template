@@ -1,0 +1,14 @@
+{
+  "name": "jqte",
+  "homepage": "https://github.com/fattihkoca/jQuery-TE",
+  "_release": "b407effd50",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "b407effd5051828b11fa878f68aa2d1c015849d3"
+  },
+  "_source": "https://github.com/fattihkoca/jQuery-TE.git",
+  "_target": "*",
+  "_originalSource": "jqte",
+  "_direct": true
+}
