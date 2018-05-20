@@ -1,0 +1,13 @@
+https://docs.ckeditor.com/ckeditor4/latest/guide/dev_framed.html#complete-sample
+
+https://github.com/ckeditor/ckeditor-releases/tree/full/4.0.x
+
+http://jqueryte.com/
+
+https://github.com/fattihkoca/jQuery-TE
+
+https://www.openhub.net/p/Raptor-Editor
+
+https://github.com/PANmedia/raptor-editor
+
+
